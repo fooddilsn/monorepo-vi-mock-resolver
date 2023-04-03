@@ -1,5 +1,5 @@
-import { main } from 'sample';
+import { main } from 'sample'
 
 export function app() {
-  return main();
+  return main()
 }

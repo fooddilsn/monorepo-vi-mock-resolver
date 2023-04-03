@@ -1,9 +1,9 @@
-import { expect, test, vi } from 'vitest';
+import { expect, test, vi } from 'vitest'
 
-import { app } from './index';
+import { app } from './index'
 
-vi.mock('sample');
+vi.mock('sample')
 
 test('should use a mocked dependency', () => {
-  expect(app()).toBe(false);
-});
+  expect(app()).toBe(false)
+})

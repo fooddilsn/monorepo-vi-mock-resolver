@@ -1,4 +1,4 @@
- export function main() {
-  console.log('Real implementation');
-  return true;
- }
+export function main() {
+  console.log('Real implementation')
+  return true
+}

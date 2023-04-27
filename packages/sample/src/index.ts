@@ -1,4 +1,4 @@
 export function main() {
-  console.log('Real implementation')
+  console.log('sample: real implementation')
   return true
 }

@@ -7,7 +7,7 @@ vi.mock('undici')
 
 test('should use a mocked implementation of undici', async () => {
   expect(await quote()).toEqual({
-    quote: 'Life is what happens to you while you\'re busy making other plans.',
+    quote: "Life is what happens to you while you're busy making other plans.",
     author: 'John Lennon',
   })
 })
